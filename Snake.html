@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <script src="SL.js"></script>
+  </head>
+  <body>
+    <div class="body">
+      <div>
+        <button onclick="dice1()">Player 1</button>
+        <p id="demo"></p>
+        Player1 Count <br />
+        <input type="text" id="ca" /><br />
+        <br /><br />
+        <button onclick="dice2()">Player 2</button>
+        <p id="demo1"></p>
+        Player2 Count <br />
+        <input type="text" id="cb" /><br />
+        <br /><br /><br /><br /><br /><br /><br /><br />
+        <button onclick="play()">Play Again</button>
+      </div>
+      <div class="main">
+        <div class="row">
+          <div class="box">
+            100
+            <p class="a100"></p>
+            <p class="b100"></p>
+          </div>
+          <div class="box">
+            99
+            <p class="a99"></p>
+            <p class="b99"></p>
+          </div>
+          <div class="box">
+            98
+            <p class="a98"></p>
+            <p class="b98"></p>
+          </div>
+          <div class="box">
+            97
+            <p class="a97"></p>
+            <p class="b97"></p>
+          </div>
+          <div class="box">
+            96
+            <p class="a96"></p>
+            <p class="b96"></p>
+          </div>
+          <div class="box">
+            95
+            <p class="a95"></p>
+            <p class="b95"></p>
+          </div>
+          <div class="box">
+            94
+            <p class="a94"></p>
+            <p class="b94"></p>
+          </div>
+          <div class="box">
+            93
+            <p class="a93"></p>
+            <p class="b93"></p>
+          </div>
+          <div class="box">
+            92
+            <p class="a92"></p>
+            <p class="b92"></p>
+          </div>
+          <div class="box">
+            91
+            <p class="a91"></p>
+            <p class="b91"></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="box">
+            81
+            <p class="a81"></p>
+            <p class="b81"></p>
+          </div>
+          <div class="box">
+            82
+            <p class="a82"></p>
+            <p class="b82"></p>
+          </div>
+          <div class="box">
+            83
+            <p class="a83"></p>
+            <p class="b83"></p>
+          </div>
+          <div class="box">
+            84
+            <p class="a84"></p>
+            <p class="b84"></p>
+          </div>
+          <div class="box">
+            85
+            <p class="a85"></p>
+            <p class="b85"></p>
+          </div>
+          <div class="box">
+            86
+            <p class="a86"></p>
+            <p class="b86"></p>
+          </div>
+          <div class="box">
+            87
+            <p class="a87"></p>
+            <p class="b87"></p>
+          </div>
+          <div class="box">
+            88
+            <p class="a88"></p>
+            <p class="b88"></p>
+          </div>
+          <div class="box">
+            89
+            <p class="a89"></p>
+            <p class="b89"></p>
+          </div>
+          <div class="box">
+            90
+            <p class="a90"></p>
+            <p class="b90"></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="box">
+            80
+            <p class="a80"></p>
+            <p class="b80"></p>
+          </div>
+          <div class="box">
+            79
+            <p class="a79"></p>
+            <p class="b79"></p>
+          </div>
+          <div class="box">
+            78
+            <p class="a78"></p>
+            <p class="b78"></p>
+          </div>
+          <div class="box">
+            77
+            <p class="a77"></p>
+            <p class="b77"></p>
+          </div>
+          <div class="box">
+            76
+            <p class="a76"></p>
+            <p class="b76"></p>
+          </div>
+          <div class="box">
+            75
+            <p class="a75"></p>
+            <p class="b75"></p>
+          </div>
+          <div class="box">
+            74
+            <p class="a74"></p>
+            <p class="b74"></p>
+          </div>
+          <div class="box">
+            73
+            <p class="a73"></p>
+            <p class="b73"></p>
+          </div>
+          <div class="box">
+            72
+            <p class="a72"></p>
+            <p class="b72"></p>
+          </div>
+          <div class="box">
+            71
+            <p class="a71"></p>
+            <p class="b71"></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="box">
+            61
+            <p class="a61"></p>
+            <p class="b61"></p>
+          </div>
+          <div class="box">
+            62
+            <p class="a62"></p>
+            <p class="b62"></p>
+          </div>
+          <div class="box">
+            63
+            <p class="a63"></p>
+            <p class="b63"></p>
+          </div>
+          <div class="box">
+            64
+            <p class="a64"></p>
+            <p class="b64"></p>
+          </div>
+          <div class="box">
+            65
+            <p class="a65"></p>
+            <p class="b65"></p>
+          </div>
+          <div class="box">
+            66
+            <p class="a66"></p>
+            <p class="b66"></p>
+          </div>
+          <div class="box">
+            67
+            <p class="a67"></p>
+            <p class="b67"></p>
+          </div>
+          <div class="box">
+            68
+            <p class="a68"></p>
+            <p class="b68"></p>
+          </div>
+          <div class="box">
+            69
+            <p class="a69"></p>
+            <p class="b69"></p>
+          </div>
+          <div class="box">
+            70
+            <p class="a70"></p>
+            <p class="b70"></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="box">
+            60
+            <p class="a60"></p>
+            <p class="b60"></p>
+          </div>
+          <div class="box">
+            59
+            <p class="a59"></p>
+            <p class="b59"></p>
+          </div>
+          <div class="box">
+            58
+            <p class="a58"></p>
+            <p class="b58"></p>
+          </div>
+          <div class="box">
+            57
+            <p class="a57"></p>
+            <p class="b57"></p>
+          </div>
+          <div class="box">
+            56
+            <p class="a56"></p>
+            <p class="b56"></p>
+          </div>
+          <div class="box">
+            55
+            <p class="a55"></p>
+            <p class="b55"></p>
+          </div>
+          <div class="box">
+            54
+            <p class="a54"></p>
+            <p class="b54"></p>
+          </div>
+          <div class="box">
+            53
+            <p class="a53"></p>
+            <p class="b53"></p>
+          </div>
+          <div class="box">
+            52
+            <p class="a52"></p>
+            <p class="b52"></p>
+          </div>
+          <div class="box">
+            51
+            <p class="a51"></p>
+            <p class="b51"></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="box">
+            41
+            <p class="a41"></p>
+            <p class="b41"></p>
+          </div>
+          <div class="box">
+            42
+            <p class="a42"></p>
+            <p class="b42"></p>
+          </div>
+          <div class="box">
+            43
+            <p class="a43"></p>
+            <p class="b43"></p>
+          </div>
+          <div class="box">
+            44
+            <p class="a44"></p>
+            <p class="b44"></p>
+          </div>
+          <div class="box">
+            45
+            <p class="a45"></p>
+            <p class="b45"></p>
+          </div>
+          <div class="box">
+            46
+            <p class="a46"></p>
+            <p class="b46"></p>
+          </div>
+          <div class="box">
+            47
+            <p class="a47"></p>
+            <p class="b47"></p>
+          </div>
+          <div class="box">
+            48
+            <p class="a48"></p>
+            <p class="b48"></p>
+          </div>
+          <div class="box">
+            49
+            <p class="a49"></p>
+            <p class="b49"></p>
+          </div>
+          <div class="box">
+            50
+            <p class="a50"></p>
+            <p class="b50"></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="box">
+            40
+            <p class="a40"></p>
+            <p class="b40"></p>
+          </div>
+          <div class="box">
+            39
+            <p class="a39"></p>
+            <p class="b39"></p>
+          </div>
+          <div class="box">
+            38
+            <p class="a38"></p>
+            <p class="b38"></p>
+          </div>
+          <div class="box">
+            37
+            <p class="a37"></p>
+            <p class="b37"></p>
+          </div>
+          <div class="box">
+            36
+            <p class="a36"></p>
+            <p class="b36"></p>
+          </div>
+          <div class="box">
+            35
+            <p class="a35"></p>
+            <p class="b35"></p>
+          </div>
+          <div class="box">
+            34
+            <p class="a34"></p>
+            <p class="b34"></p>
+          </div>
+          <div class="box">
+            33
+            <p class="a33"></p>
+            <p class="b33"></p>
+          </div>
+          <div class="box">
+            32
+            <p class="a32"></p>
+            <p class="b32"></p>
+          </div>
+          <div class="box">
+            31
+            <p class="a31"></p>
+            <p class="b31"></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="box">
+            21
+            <p class="a21"></p>
+            <p class="b21"></p>
+          </div>
+          <div class="box">
+            22
+            <p class="a22"></p>
+            <p class="b22"></p>
+          </div>
+          <div class="box">
+            23
+            <p class="a23"></p>
+            <p class="b23"></p>
+          </div>
+          <div class="box">
+            24
+            <p class="a24"></p>
+            <p class="b24"></p>
+          </div>
+          <div class="box">
+            25
+            <p class="a25"></p>
+            <p class="b25"></p>
+          </div>
+          <div class="box">
+            26
+            <p class="a26"></p>
+            <p class="b26"></p>
+          </div>
+          <div class="box">
+            27
+            <p class="a27"></p>
+            <p class="b27"></p>
+          </div>
+          <div class="box">
+            28
+            <p class="a28"></p>
+            <p class="b28"></p>
+          </div>
+          <div class="box">
+            29
+            <p class="a29"></p>
+            <p class="b29"></p>
+          </div>
+          <div class="box">
+            30
+            <p class="a30"></p>
+            <p class="b30"></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="box">
+            20
+            <p class="a20"></p>
+            <p class="b20"></p>
+          </div>
+          <div class="box">
+            19
+            <p class="a19"></p>
+            <p class="b19"></p>
+          </div>
+          <div class="box">
+            18
+            <p class="a18"></p>
+            <p class="b18"></p>
+          </div>
+          <div class="box">
+            17
+            <p class="a17"></p>
+            <p class="b17"></p>
+          </div>
+          <div class="box">
+            16
+            <p class="a16"></p>
+            <p class="b16"></p>
+          </div>
+          <div class="box">
+            15
+            <p class="a15"></p>
+            <p class="b15"></p>
+          </div>
+          <div class="box">
+            14
+            <p class="a14"></p>
+            <p class="b14"></p>
+          </div>
+          <div class="box">
+            13
+            <p class="a13"></p>
+            <p class="b13"></p>
+          </div>
+          <div class="box">
+            12
+            <p class="a12"></p>
+            <p class="b12"></p>
+          </div>
+          <div class="box">
+            11
+            <p class="a11"></p>
+            <p class="b11"></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="box">
+            1
+            <p class="a1"></p>
+            <p class="b1"></p>
+          </div>
+          <div class="box">
+            2
+            <p class="a2"></p>
+            <p class="b2"></p>
+          </div>
+          <div class="box">
+            3
+            <p class="a3"></p>
+            <p class="b3"></p>
+          </div>
+          <div class="box">
+            4
+            <p class="a4"></p>
+            <p class="b4"></p>
+          </div>
+          <div class="box">
+            5
+            <p class="a5"></p>
+            <p class="b5"></p>
+          </div>
+          <div class="box">
+            6
+            <p class="a6"></p>
+            <p class="b6"></p>
+          </div>
+          <div class="box">
+            7
+            <p class="a7"></p>
+            <p class="b7"></p>
+          </div>
+          <div class="box">
+            8
+            <p class="a8"></p>
+            <p class="b8"></p>
+          </div>
+          <div class="box">
+            9
+            <p class="a9"></p>
+            <p class="b9"></p>
+          </div>
+          <div class="box">
+            10
+            <p class="a10"></p>
+            <p class="b10"></p>
+            <p class="a0"></p>
+            <p class="b0"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
